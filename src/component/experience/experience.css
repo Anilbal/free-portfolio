@@ -1,0 +1,42 @@
+.exp-page{
+    min-height: 20vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: #EFEAE3;
+}
+.exp-page::-webkit-scrollbar{
+    display: none;
+}
+.moving-div{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.moving-div h1{
+    display: inline-block;
+    font-size:120px;
+    font-family:poppins;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.red-dot{
+    height: 60px;
+    width: 60px;
+    background: #FE330A;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 30px;
+}

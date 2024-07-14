@@ -1,0 +1,23 @@
+.content-main{
+    position: absolute;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    top:0;
+    font-family: rj;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}   
+.content-main h1{
+    font-size: 13vw;
+    margin-left: 70px;
+    letter-spacing: 8px;
+    margin-top: 12vw;
+}
+.content-main h2{
+    font-size: 13vw;
+    margin-left: 350px;
+    margin-top: -40px;
+    letter-spacing: 8px;
+}

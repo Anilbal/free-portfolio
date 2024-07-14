@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: nb;
+  src: url(../src/fonts/NBInternationalProBoo.ttf);
+}
+@font-face {
+  font-family: rj;
+  src: url(../src/fonts/Rejouice-Headline.ttf);
+}
+@font-face {
+  font-family: hd;
+  src: url(../src/fonts/NeueHaasDisplay-Mediu.ttf);
+}
+@font-face {
+  font-family: md;
+  src: url(../src/fonts/NeueHaasDisplay-Roman.ttf);
+}
+body{
+  font-family: nb;
+  background-color: #EFEAE3;
+}

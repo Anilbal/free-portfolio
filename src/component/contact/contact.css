@@ -1,0 +1,143 @@
+.contact-page{
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+    padding: 20px 80px;
+    position: relative;
+    z-index: 99;
+}
+.contact-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+.contact-heading h2{
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.contact-heading i{
+    font-size: 40px;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.contact-first form{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0px;
+    width: 70%;
+}
+.contact-first form input{
+    width: 100%;
+    padding: 15px 40px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    font-size: 20px;
+    border-radius: 5px;
+    color: #000;
+}
+.contact-first form input::placeholder{
+    color: #000000bd;
+
+}
+.contact-first form textarea{
+    width: 100%;
+    padding: 20px 40px;
+    outline: none;
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    font-size: 20px;
+}
+.contact-first form textarea::placeholder{
+    color: #000000bd;
+}
+.contact-first button{
+    width: 200px;
+    padding: 10px 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.484);
+    border-radius: 4px;
+    font-size: 25px;
+    color: #000000c7;
+    font-family: nb;
+    transition: all ease 0.3s;
+}
+.contact-first button span{
+    display: flex;
+    align-items: center;
+}
+.contact-first button:hover{
+    background: #000;
+    color: #fff;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.contact-or{
+    text-align: center;
+    font-family: rj;
+    font-size: 30px;
+}
+
+.contact-second{
+    margin-top: 20px;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.contact-second span{
+    border: 1px solid black;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-second span::after{
+    content:"";
+    position: absolute;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    bottom:-100%;
+    border-radius: 20px;
+    left: 0;
+    transition: all ease 0.3s;
+}
+.contact-second span:hover::after{
+    bottom: 0;
+    border-radius: 0;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    position: relative;
+    z-index: 10;
+}
+.links p{
+    text-transform: uppercase;
+    font-family: rj;
+}
+.contact-second span:hover .links{
+    color: #fff;
+}
+.footers{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    font-size: 18px;
+}

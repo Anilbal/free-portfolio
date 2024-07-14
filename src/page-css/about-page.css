@@ -1,0 +1,118 @@
+.about-main{
+    position: absolute;
+    top: 130px;
+}
+.aboutme-page{
+    overflow: hidden;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2vw;
+    gap: 2vw;
+}
+.column{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.column img{
+    height: 100%;
+    width: 100%;
+}
+
+.about-middle{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 50px;
+    padding: 4vw;
+}
+.about-middle p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.about-middle p span{
+    font-size: 20px;
+    rotate: 90deg;
+    margin-top: 10px;
+}
+.about-middle h3{
+    text-decoration: underline;
+}
+
+.about-bottom{
+    background-color: #0E0E0E;
+    color: #fff;
+    padding: 50px;
+}
+.bottom-content{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.bottom-content h2{
+    font-size: 4vw;
+    font-weight: 100;
+}
+.about-fix {
+    min-height: 100vh;
+    width: 100%;
+    padding: 9vw 10px;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    height: 300px;
+    width: 400px;
+}
+.cards img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cards:nth-child(1){
+    margin-left: 40px;
+}
+.cards:nth-child(2){
+    margin-left: 150px;
+    margin-top: -240px;
+}
+.cards:nth-child(3){
+    margin-left: 250px;
+    margin-top: -240px;
+}
+.cards:nth-child(4){
+    margin-left: 350px;
+    margin-top: -240px;
+}
+.cards:nth-child(5){
+    margin-left: 450px;
+    margin-top: -240px;
+}
+.cards:nth-child(6){
+    margin-left: 550px;
+    margin-top: -240px;
+}
+.cards:nth-child(7){
+    margin-left: 650px;
+    margin-top: -240px;
+}
+.cards:nth-child(8){
+    margin-left: 750px;
+    margin-top: -240px;
+}
+.cards:nth-child(9){
+    margin-left: 850px;
+    margin-top: -240px;
+}

@@ -1,0 +1,14 @@
+.video-page{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.video-page video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

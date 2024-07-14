@@ -1,0 +1,39 @@
+.contact-us{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+}
+.contact-top{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.globe{
+    border:1px solid rgba(29, 11, 11, 0.897);
+    height: 90%;
+    width: 80%;
+    border-radius: 50%;
+}
+.contact-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 80px;
+}
+.contact-right h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family:poppins;
+}
+.contact-right h3{
+    font-size: 40px;
+}

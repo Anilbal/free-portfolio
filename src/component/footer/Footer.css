@@ -1,0 +1,31 @@
+.footer{
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer-top{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.footer-mid{
+    height: 400px;
+    width: 100%;
+    padding: 40px;
+}
+.footer-mid p{
+    font-size: 40px;
+    margin-bottom: -60px;
+}
+.footer-mid h1{
+    font-size: 20vw;
+    letter-spacing: 10px;
+}

@@ -1,0 +1,52 @@
+.loader-page{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    transition: all ease 0.5s;
+}
+.loader-page h1{
+    color: transparent;
+    text-transform: uppercase;
+    font-family: nb;
+    font-size: 70px;
+    background: linear-gradient( to right,#1B75D8,#58509b);
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+.loader-page h1:nth-child(2){
+    animation-delay: 2s;
+}
+.loader-page h1:nth-child(3){
+    animation-delay:3s;
+}
+
+@keyframes loader {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.move{
+    top: -100%;
+}
